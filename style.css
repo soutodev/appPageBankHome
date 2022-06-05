@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+h1 {
+    font-family: 'Kreon', serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+p {
+    font-family: 'Kreon', serif;
+    font-weight: 200;
+}
+
+h2 {
+    font-family: 'Kreon', serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+body {
+    height: 100vh;
+    background: rgb(134,48,96);
+    background: linear-gradient(0deg, rgba(134,48,96,0.9780287114845938) 41%, rgba(243,29,93,1) 100%);
+}
+
+.shadow {
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+.icon-red {
+    color:#b32b59;
+}
+
+.icon-bg {
+    color: #fce8ea;
+}
+
+.fa-arrow-left{
+    color: #fff;
+}
+
+.fa-mobile-notch {
+    color: rgba(243,29,93,1) 100%;
+}
+
+.fa-question{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 0.7rem;
+    margin-left: 22.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
+.header {
+    margin-top: 1rem;
+    padding-right: 9.7rem; 
+}
+
+.main-content-top {
+    margin-top: 1rem;
+}
+
+.main-content-middle {
+    margin-top: 1.5rem;
+}
+
+.main-content-bottom {
+    margin-top: 1.5rem;
+}
+
+
+.title-main-content-middle,
+.title-main-content-bottom {
+ margin-bottom: 0.8rem;
+}
+
+.main-first-options {
+    background-color: #fff;
+    margin: 1rem 0 1rem 0;
+    padding: 1.5rem 0 1.5rem 0;
+    border-radius: 0.8rem;
+}
+
+.second-first-options {
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+    height: 1.5rem;
+    border-radius: 0.7rem;
+}
+
+
+
+.grid-second-first-options {
+    display: grid;
+    grid-template-areas: "item-second-first-options item-second-first-options";
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.item-second-first-options{
+    grid-area: "item-second-first-options";
+}
+
+
+
+.grid-more-options {
+    display: grid;
+    gap: 0.6rem;
+    grid-template-areas: "item-mo item-mo item-mo";
+}
+
+.item-mo {
+    background-color: #fff;
+    border-radius: 0.8rem;
+    padding-top: 1.5rem;
+    padding-left: 0.7rem;
+    height: 6rem;
+    grid-area: "item-mo";
+}
+
+.text-aux{
+    margin-top: 0.9rem;
+}
+
+.grid-other-services {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas: 
+    "item-os item-os"
+    "item-os item-os"
+    "item-os item-os";
+}
+
+.item-os {
+    background-color: #fff;
+    border-radius: 0.8rem; 
+    grid-area: "item-os";
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-left: 0.5rem;
+    height: 4.2rem;
+}
+
+.grid-int-other-services {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    grid-template-areas: "item-int-other-services item-int-other-services";
+}
+
+.item-int-other-services{
+    grid-area: "item-int-other-services";
+}
+
+
+.grid-4-column{
+    display: grid;
+    grid-template-areas: "item-grid-4 item-grid-4 item-grid-4 item-grid-4";
+}
+
+.item-grid-4 {
+    font-size: 0.7rem;
+    align-items: center;
+    grid-area: "item-grid-4";
+}
+
+.grid-align-column {
+    display: grid;
+    grid-template-areas: 
+    "grid-align-column-item",
+    "grid-align-column-item";
+    gap: 0.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-align-column-item {
+    grid-area: "grid-align-column-item"; 
+    align-self: center;
+}
+
+.icon-phone {
+    padding-left: 0.9rem;
+    color: #b32b59;
+}
+.icon-cpf-cnpj {
+    padding-left: 1.5rem;
+    color: #b32b59;
+}
+.icon-email {
+    padding-left: 0.7rem;
+    color: #b32b59;
+}
+.icon-key-random {
+    padding-left: 2.5rem;
+    color: #b32b59;
+}
+
+
+
+
+.grid-header {
+    display: grid;
+    grid-template-areas: "item-header item-header";
+}
+
+.item-header {
+    align-content: center;
+    justify-content: center;
+    grid-area: "item-header";
+}
+
+
+
+.grid-second-intern-column {
+    display: grid;
+    padding-left: 0.2rem;
+    grid-template-areas: "item-second-intern-column item-second-intern-column";
+}
+
+.item-second-intern-column {
+    align-content: center;
+    justify-content: center;
+    grid-area: "item-second-intern-column";
+}
+
+.icon-int{
+    padding: 0.2rem;
+    padding-right: 0.5rem;
+}
+
+
+
+.border-left {
+    border-left: #e2e2e2 0.1rem solid;
+}
+
+.h1-welcome {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+
+.footer {
+    height: 3rem;
+    background-color: #fff;
+    margin-top: 6.5rem;
+}
+
+.text-footer{
+    padding-top: 0.7rem;
+}
