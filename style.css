@@ -26,7 +26,6 @@ h2 {
 }
 
 body {
-    height: 100vh;
     background: rgb(134,48,96);
     background: linear-gradient(0deg, rgba(134,48,96,0.9780287114845938) 41%, rgba(243,29,93,1) 100%);
 }
@@ -64,10 +63,19 @@ body {
     background-color: #fff;
 }
 
+@media ( min-width: 390px ) {
+    .fa-question{
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+        margin-right: 2.8rem;
+    }
+}
+
 
 .container {
     display: grid;
     margin: 0 auto;
+    padding: 1rem;
     justify-content: center;
 }
 
